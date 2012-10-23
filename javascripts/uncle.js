@@ -1,0 +1,1 @@
+nosir.swf("ShowTop", "Show", "swf/uncle.swf", "960px", "360px", "opaque", "");
