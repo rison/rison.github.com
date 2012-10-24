@@ -18,7 +18,7 @@ function onNavWork()
 	}
 	catch (e)
 	{
-		window.location.href = "index.html";
+		window.location.href = "http://risonhuang.com";
 	}
 }
 function onNavAbout()
@@ -32,7 +32,7 @@ function onNavAbout()
 	}
 	catch (e)
 	{
-		window.location.href = "index.html#about";
+		window.location.href = "http://risonhuang.com/#about";
 	}
 
 }

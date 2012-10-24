@@ -17,6 +17,7 @@ h3{font-size:24px;}
 .t-small {font-size:12px;}
 .a-no-hover{padding:0px}
 .a-no-hover:hover{background-color:transparent;}
+.img-checker{background-image:url("../images/check-bg.gif")}
 
 .header-size-fixed{height:60px;}
 .title{float: left;}
@@ -37,10 +38,11 @@ h3{font-size:24px;}
 
 .work-intro-p{width:850px;padding-left:2px;}
 .work ul{margin-top:28px;}
+.work-single-size{width:470px;height:235px;}
 .work-nth-1n{margin:0 20px 20px 0;}
-.work-nth-2n{margin-right:0px}
+.work-nth-2n{margin:0px;}
 .work-border{cursor:pointer;position:absolute;left:-1px;top:-1px;}
-.work-l-black{position:absolute;width:470px;height:235px;top:0px;background-color: #FFF;}
+.work-l-black{position:absolute;top:0px;background-color: #FFF;}
 .work-msg-ul{color:#454545;position:absolute;top:0;width:470px;text-align:center;display:none;}
 .work-msg-1p{font-size:30px;margin:56px auto 16px auto;letter-spacing:-1px;}
 .work-msg-2p{font-size:18px;}
@@ -66,4 +68,5 @@ h3{font-size:24px;}
 .show-line{height:0px;border-top:1px solid #ccc;border-bottom:1px solid #FFF;}
 .show-back{margin-top:30px;}
 
-.show-logo-pixas{margin:-68px 0 0 26px;}
+.show-logo-pixas{margin:-50px 0 0 26px;}
+.show-top-img-size{width:960px;height:360px;}
