@@ -15,7 +15,7 @@ h3{font-size:24px;}
 .t-bold{font-weight:bold;}
 .l-fix-a{margin-left:-2px;}
 .t-small {font-size:12px;}
-.a-no-hover{padding:0px;}
+.a-no-hover{padding:0px}
 .a-no-hover:hover{background-color:transparent;}
 .img-checker{background-image:url("../images/check-bg.gif")}
 
@@ -29,8 +29,7 @@ h3{font-size:24px;}
 
 .nav{margin-top:17px;}
 .nav li{display:inline-block;height:34px}
-.nav li{*display:inline;}
-.nav p{line-height:38px;margin:0 18px; color:#FFF;font-size:16px;letter-spacing:-1px;}
+.nav p{line-height:38px;margin:auto 18px; color:#FFF;font-size:16px;letter-spacing:-1px;}
 .nav-unactive {cursor:pointer;background-color: #6fbce4;}
 .nav-active {cursor:pointer;background-color: #454545;}
 .nav-active:hover {cursor:pointer;background-color: #666;}
@@ -39,7 +38,6 @@ h3{font-size:24px;}
 
 .work-intro-p{width:850px;padding-left:2px;}
 .work ul{margin-top:28px;}
-.work li{float:left;}
 .work-single-size{width:470px;height:235px;}
 .work-nth-1n{margin:0 20px 20px 0;}
 .work-nth-2n{margin:0px;}
