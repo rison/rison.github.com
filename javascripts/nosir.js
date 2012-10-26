@@ -64,7 +64,6 @@ nosir.uo = (function()
 * 
 * @param   a - array for all functions to be defer loaded
 * @example	defer([func1,func2]);
-* 
 */
 nosir.__addLoadEvent = function(func) 
 {
