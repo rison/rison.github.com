@@ -3,7 +3,8 @@ var works =
 	["work_thumb_470_3.gif","Pixas Editor","Sep 2012 - Current","pixas_editor.html"],
 	["work_thumb_470_1.gif","ActionScript Engine : Pixas","Dec 2010 - Current","pixas.html"],
 	["work_thumb_470_4.gif","Pixel Text Generator","Feb 2011","pixel_text.html"],
-	["work_thumb_470_2.gif","Uncle Big's Adventure","Aug 2012","uncle.html"]
+	["work_thumb_470_2.gif","Uncle Big's Adventure","Aug 2012","uncle.html"],
+	["work_thumb_470_5.gif","JavaScript Library : NoSir","Sep 2009","nosir.html"]
 ];
 function initWorkList()
 {

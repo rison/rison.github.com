@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Max's Interactive Lab - NoSir JavaScript Library</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" >  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel=stylesheet type='text/css'><!---->
+<link href="stylesheets/style.css"rel=stylesheet  type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<div class="header-size-fixed l-w-defined l-centered ">
+		<ul class="l-inline title">
+			<img class="header-title" src="images/title.gif"></img>
+		</ul>
+		<ul id="Sns" class="sns"></ul>
+	</div>
+</div>
+<div class="nav">
+	<div class="l-w-defined l-centered">
+		<ul>
+			<li id="NavWork" class="nav-unactive"><p>Work</p></li><li id="NavAbout" class="nav-active"><p>About Me</p></li>
+		</ul>
+	</div>
+</div>
+<div class="content l-w-defined l-centered">
+	<h2>NoSir Library API</h2>
+	<p class="show-time">Update : Oct 2012<p>
+	<div class="show-con">
+		<div class="api-l">
+			<p class="l-fix-a"><a href="nosir.html" target="_self">< Back to NoSir Library</a></p>
+			<p class="show-block-p">Browse the NoSir API</p>
+			<p class="show-block-p">System</p>
+			<p class="l-fix-a"><a href="#ach_ua">nosir.ua</a></p>
+			<p class="l-fix-a"><a href="#ach_ie">nosir.ie</a></p>
+			<p class="l-fix-a"><a href="#ach_uo">nosir.uo</a></p>
+			<p class="l-fix-a"><a href="#ach_defer">nosir.defer()</a></p>
+			<p class="show-block-p">Selector</p>
+			<p class="l-fix-a"><a href="#ach_$">nosir.$()</a></p>
+			<p class="l-fix-a"><a href="#ach_css">nosir.css()</a></p>
+			<p class="show-block-p">Html</p>
+			<p class="l-fix-a"><a href="#ach_inner">nosir.inner()</a></p>
+			<p class="l-fix-a"><a href="#ach_outer">nosir.outer()</a></p>
+			<p class="l-fix-a"><a href="#ach_append">nosir.append()</a></p>
+			<p class="show-block-p">Flash</p>
+			<p class="l-fix-a"><a href="#ach_swf">nosir.swf()</a></p>
+			<p class="l-fix-a"><a href="#ach_$swf">nosir.$swf()</a></p>
+			<p class="show-block-p">Show</p>
+			<p class="l-fix-a"><a href="#ach_dnb">nosir.dn()</a></p>
+			<p class="l-fix-a"><a href="#ach_dnb">nosir.db()</a></p>
+			<p class="l-fix-a"><a href="#ach_vhv">nosir.vh()</a></p>
+			<p class="l-fix-a"><a href="#ach_vhv">nosir.vv()</a></p>
+			<p class="show-block-p">Alpha</p>
+			<p class="l-fix-a"><a href="#ach_alpha">nosir.alpha()</a></p>
+			<p class="l-fix-a"><a href="#ach_fade">nosir.fade()</a></p>
+			<p class="show-block-p">Event</p>
+			<p class="l-fix-a"><a href="#ach_addEvent">nosir.addEvent()</a></p>
+			<p class="l-fix-a"><a href="#ach_removeEvent">nosir.removeEvent()</a></p>
+			<p class="l-fix-a"><a href="#ach_getEvent">nosir.getEvent()</a></p>
+		</div>
+		<div class="api-r">
+			<!--
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_var"></a>
+				<h3>nosir.var</h3>
+				<div class="show-block-con">
+					<p>Intro</p>
+					<div class="code-param">
+						<p>Param [type] - Description</p>
+						<p>Return [type] - Description</p>
+					</div>
+					<p class="show-block-p code-block">JavaScript</p>
+					<p class="show-block-p"><a id="BtnRun_var" href="javascript:;">Run Code</a></p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			-->
+			<div class="code-top-block">
+				<p class="api-ach"><a name="ach_ua"></a></p>
+				<h3>nosir.ua</h3>
+				<div class="show-block-con">
+					<p>Get current browser's userAgent type</p>
+					<div class="code-param">
+						<p>Return [String] - ie, chrome, firefox, safari, opera, other</p>
+					</div>
+					<p class="show-block-p code-block">alert(nosir.ua);</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_ua" href="javascript:;">Run Code</a></p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_ie"></a></p>
+				<h3>nosir.ie</h3>
+				<div class="show-block-con">
+					<p>Get if the browser is MSIE core based browser </p>
+					<div class="code-param">
+						<p>Return [Boolean] - if the browser is MSIE core based browser</p>
+					</div>
+					<p class="show-block-p code-block">alert(nosir.ie);</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_ie" href="javascript:;">Run Code</a></p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">	
+				<p class="api-ach"><a name="ach_uo"></a></p>
+				<h3>nosir.uo</h3>
+				<div class="show-block-con">
+					<p>Get the url query object and the hash value</p>
+					<div class="code-param">
+						<p>Return [Object] - the url query object</p>
+					</div>
+					<p class="show-block-p code-block">//url.html?from=web#top<br>var from = nosir.uo.from;<br>var hash = nosir.uo.hash;</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_defer"></a></p>
+				<h3>nosir.defer( [array] )</h3>
+				<div class="show-block-con">
+					<p>Defer excuting functions after all of the elements in DOM loading over</p>
+					<div class="code-param">
+						<p>array [Array] - An array for all functions to be defer loaded</p>
+					</div>
+					<p class="show-block-p code-block">defer([doJobA, doJobB]);</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_$"></a></p>
+				<h3>nosir.$( [id] )</h3>
+				<div class="show-block-con">
+					<p>Select the document element by id</p>
+					<div class="code-param">
+						<p>id [String] - id of the element</p>
+						<p>Return [Object] - the reference of the element</p>
+					</div>
+					<p class="show-block-p code-block">var logo = nosir.$("Logo");</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">	
+				<p class="api-ach"><a name="ach_css"></a></p>
+				<h3>nosir.css( [container] , [style] );</h3>
+				<div class="show-block-con">
+					<p>Define multiple css properties at once by className or style object</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>style [String / Object] - class selector's name / object</p>
+					</div>
+					<p class="show-block-p code-block">.style-test-css {font-size:12px, background-color:#FFF} (in css file);<br>nosir.css("Testing_css", "style-test-css");</p>
+					<p class="show-block-p code-block">nosir.css(nosir.$("Testing_css"), {fontSize:"12px", backgroundColor:"#FFF"});</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_css" href="javascript:;">Run Code</a><a class="code-block-a code-reset" id="BtnReset_css" href="javascript:;">Reset</a></p>
+					<p id="Testing_css" class="show-block-p code-demo-block">This is the container for testing css</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_inner"></a></p>
+				<h3>nosir.inner( [container] , [html] )</h3>
+				<div class="show-block-con">
+					<p>Set the inner Html contend for container</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>html [String] - html content</p>
+					</div>
+					<p class="show-block-p code-block">nosir.inner("Logo", "This is the text replace the logo");</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_outer"></a></p>
+				<h3>nosir.outer( [container] , [html] )</h3>
+				<div class="show-block-con">
+					<p>Set the outer Html contend for container</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>html [String] - html content</p>
+					</div>
+					<p class="show-block-p code-block">nosir.outer("Logo", "This is the text replace the logo node");</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_append"></a></p>
+				<h3>nosir.append( [container] , [html] )</h3>
+				<div class="show-block-con">
+					<p>Append the Html contend for container</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>html [String] - html content</p>
+					</div>
+					<p class="show-block-p code-block">nosir.append("Logo", "This is the text append after logo");</p>
+					<p class="show-block-p">Do not use append function within large loop due to the efficiency problem, instead of, generate the html string first then inner it into the container.</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>			
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_swf"></a></p>
+				<h3>nosir.swf( [container] , [id] , [src] , [width] , [height] , [wmode] , [flashvars] )</h3>
+				<div class="show-block-con">
+					<p>Insert swf into container</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>id [String] - swf id. Every swf in the DOM should have the only id</p>
+						<p>src [String] - swf address</p>
+						<p>width [String] - width + "px" / percent + "%"</p>
+						<p>height [String] - height + "px" / percent + "%"</p>
+						<p>wmode [String] - opaque / transparent / window / direct</p>
+						<p>flashvars [String] - init vars for flash</p>
+						<p>Return [String] - the html code of the flash block</p>
+					</div>
+					<p class="show-block-p code-block">nosir.swf("Testing_swf", "Testing_swf", "http://www.youtube.com/v/7oBQnIumBRY", "100%", "100%", "opaque", "version=3&from=risonhuang.com");</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_swf" href="javascript:;">Run Code</a><a class="code-reset code-block-a" id="BtnReset_swf" href="javascript:;">Reset</a></p>
+					<p id="Testing_swf" class="show-block-p code-demo-block">This is the container for testing swf</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_$swf"></a></p>
+				<h3>nosir.$swf( [swf_id] )</h3>
+				<div class="show-block-con">
+					<p>Select the swf element by id</p>
+					<div class="code-param">
+						<p>swf_id [String] - id of swf that has been inserted into dom by nosir.swf()</p>
+						<p>Return [Object] - the reference of the swf element</p>
+					</div>
+					<p class="show-block-p">The swf reference returned could be used for calling ActionScript functions, like this:</p>
+					<p class="show-block-p code-block">var someSwf = nosir.$swf("SomeSwf");<br>swf.callByJavaScript(params);</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_dnb"></a></p>
+				<h3>nosir.dn( [container] ) & nosir.db( [container] )</h3>
+				<div class="show-block-con">
+					<p>Hide and show div</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+					</div>
+					<p class="show-block-p code-block">nosir.dn("Testing_dn_db");</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_dn" href="javascript:;">Run Code</a></p>
+					<p class="show-block-p code-block">nosir.db("Testing_dn_db");</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_db" href="javascript:;">Run Code</a></p>
+					<p id="Testing_dn_db" class="show-block-p code-demo-block">This is the container for testing dn & db</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_vhv"></a></p>
+				<h3>nosir.vh( [container] ) & nosir.vv( [container] )</h3>
+				<div class="show-block-con">
+					<p>Change the visibility for div</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+					</div>
+					<p class="show-block-p code-block">nosir.vh("Testing_vh_vv");</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_vh" href="javascript:;">Run Code</a></p>
+					<p class="show-block-p code-block">nosir.vv("Testing_vh_vv");</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_vv" href="javascript:;">Run Code</a></p>
+					<p id="Testing_vh_vv" class="show-block-p code-demo-block">This is the container for testing vv & vh</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_alpha"></a></p>
+				<h3>nosir.alpha( [container] , [alpha] )</h3>
+				<div class="show-block-con">
+					<p>Set element alpha value</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>alpha [Number] - alpha value</p>
+					</div>
+					<p class="show-block-p code-block">nosir.alpha("Testing_alpha", 20);</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_alpha" href="javascript:;">Run Code</a><a class="code-reset code-block-a" id="BtnReset_alpha" href="javascript:;">Reset</a></p>
+					<p id="Testing_alpha" class="show-block-p code-demo-block">This is the container for testing alpha</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_fade"></a><p>
+				<h3>nosir.fade( [container] , [alpha] , [speed] )</h3>
+				<div class="show-block-con">
+					<p>Fade element alpha by easing effect</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>alpha [Number] - target alpha value</p>
+						<p>speed [Number] - must &lt;=1</p>
+					</div>
+					<p class="show-block-p code-block">nosir.fade("Testing_fade", 0, 0.2);</p>
+					<p class="show-block-p"><a class="code-block-a" id="BtnRun_fade" href="javascript:;">Run Code</a><a class="code-reset code-block-a" id="BtnReset_fade" href="javascript:;">Reset</a></p>
+					<p id="Testing_fade" class="show-block-p code-demo-block">This is the container for testing fade</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_addEvent"></a><p>
+				<h3>nosir.addEvent( [container] , [type] , [handler] )</h3>
+				<div class="show-block-con">
+					<p>Add standard DOM event listener to handler function</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>type [String] - event type</p>
+						<p>handle [Function] - event handler function</p>
+					</div>
+					<div class="show-block-p code-block">nosir.addEvent("Testing_addEvent", "mouseover", onTestingAEMouseOver);<br>nosir.addEvent("Testing_addEvent", "mouseout", onTestingAEMouseOut);<br>function onTestingAEMouseOver() {<p class="code-tab">nosir.fade("Testing_addEvent", 0, 0.2);</p>}<br>function onTestingAEMouseOver() {<p class="code-tab">nosir.fade("Testing_addEvent", 100, 0.2);</p>}</div>
+					<p class="show-block-p"><a class="code-block-a" id="Testing_addEvent" href="javascript:;">Move On Me</a></p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_removeEvent"></a><p>
+				<h3>nosir.removeEvent( [container] , [type] , [handler] )</h3>
+				<div class="show-block-con">
+					<p>Remove standard DOM event listener from handler function</p>
+					<div class="code-param">
+						<p>container [String / Object] - element name / reference</p>
+						<p>type [String] - event type</p>
+						<p>handle [Function] - event handler function</p>
+					</div>
+					<p class="show-block-p code-block">nosir.removeEvent("Testing_addEvent", "mouseover", onTestingAEMouseOver);</p>
+				</div>				
+			</div>
+			<div class="show-line code-line-block">
+			</div>
+			<div class="code-show-block">
+				<p class="api-ach"><a name="ach_getEvent"></a><p>
+				<h3>nosir.getEvent()</h3>
+				<div class="show-block-con">
+					<p>Get standard DOM event reference</p>
+					<div class="code-param">
+						<p>Return [Event] - triggered event reference</p>
+					</div>
+					<div class="show-block-p code-block">nosir.addEvent("Testing_getEvent", "click", onTestingGEMouseOver);<br>function onTestingGEMouseOver() {<p class="code-tab">var evt = nosir.getEvent();</p><p class="code-tab">alert("container id : " + evt.target.id);</p>}</div>
+					<p class="show-block-p"><a class="code-block-a" id="Testing_getEvent" href="javascript:;">Click On Me</a></p>
+					<p class="show-block-p">You should alway use the standard DOM property like evt.target, evt.pageX, evt.preventDefault(), etc but not the IE event property.</p>
+				</div>				
+			</div>
+			<p class="show-back l-fix-a"><a class="show-back-l" href="nosir.html" target="_self">< Back to NoSir Library</a><a id="BtnTop" class="show-back-r" href="javascript:;" target="_self">^ Top</a></p>
+		</div>		
+	</div>
+</div>
+<script type="text/javascript" src="javascripts/nosir.js"></script>
+<script type="text/javascript" src="javascripts/core.js"></script>
+<script type="text/javascript" src="javascripts/nosir_api.js"></script>
+</body>
+</html>
+<div id="Debug"></div>
