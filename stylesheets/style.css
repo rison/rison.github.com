@@ -59,6 +59,7 @@ h3{font-size:24px;}
 .ab-r li{margin-bottom:20px;}
 
 .show-top{margin-bottom:36px;}
+.show-top-img-size{width:960px;height:360px;}
 .show-time{font-size:12px;color:#a4a4a4;margin:4px 0 0 1px;}
 .show-con{margin-top:10px;}
 .show-l{width:640px;float:left;margin-bottom:50px;}
@@ -70,7 +71,6 @@ h3{font-size:24px;}
 .show-line{height:0px;border-top:1px solid #ccc;border-bottom:1px solid #FFF;}
 .show-back{margin-top:30px;}
 .show-logo{margin:-30px 0 0 26px;}
-.show-top-img-size{width:960px;height:360px;}
 .show-back-r{float:right;}
 .show-back-l{float:left;}
 .code-block{font-family:"Consolas", "Courier New", Courier, monospace;background-color: #efe8d7;padding:3px 10px 1px 10px;}
