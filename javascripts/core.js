@@ -86,4 +86,3 @@ initSns();
 initStat();
 
 //nosir.append(nosir.$("Debug"),"_"+7);
-//add fanfou
