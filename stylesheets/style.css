@@ -8,6 +8,7 @@ h1{font-size:30px;}
 h2{font-size:24px;}
 h3{font-size:24px;}
 
+.clear{clear:both;}
 .l-w-defined {width: 960px;overflow:hieedden;}
 .l-centered {margin: 0 auto;}
 .l-relative {position:relative}
@@ -89,6 +90,7 @@ h3{font-size:24px;}
 .api-r{width:740px;float:right;margin-bottom:50px;}
 .api-ach{position:absolute;}
 .api-ach a{background-color:transparent;}
+
 
 
 

@@ -6,6 +6,11 @@ function initNav()
 	{
 		onNavAbout();
 	}
+	try{nosir.addEvent("NavCommercial", "mousedown", onNavCommercial);}catch(e){}
+}
+function onNavCommercial()
+{
+	window.location.href = "http://risonhuang.com/commercial_project.html";
 }
 function onNavWork()
 {
