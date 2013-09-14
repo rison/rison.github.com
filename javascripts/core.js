@@ -43,7 +43,7 @@ function onNavAbout()
 }
 function initSns()
 {
-	var sns = [["github","https://github.com/rison"],["twitter","https://twitter.com/rison"],["wordpress","http://risonhuang.wordpress.com/"]];
+	var sns = [["github","https://github.com/nosir"],["twitter","https://twitter.com/rison"],["wordpress","http://risonhuang.wordpress.com/"]];
 	var html = "";
 	for(var i=0;i<sns.length;i++)
 	{
